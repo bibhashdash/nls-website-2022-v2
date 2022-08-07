@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Navbar />
     <ul>
       <li v-for="article of articles" :key="article.slug">
         <NuxtLink
@@ -18,10 +17,9 @@
 </template>
 
 <script>
-import Navbar from "~/components/Navbar.vue";
-
 export default {
-  components: { Navbar },
+  name: "News3",
+
   async asyncData({ $content }) {
     const articles = await $content("articles").fetch();
 
