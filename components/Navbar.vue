@@ -15,11 +15,11 @@
         <nuxt-link to="/about">About</nuxt-link>
         <nuxt-link to="/contact">Contact</nuxt-link>
         
-       <b-nav-item-dropdown text="Lang" >
-          <b-dropdown-item href="#">EN</b-dropdown-item>
-          <b-dropdown-item href="#">ES</b-dropdown-item>
-          <b-dropdown-item href="#">RU</b-dropdown-item>
-          <b-dropdown-item href="#">FA</b-dropdown-item>
+       <b-nav-item-dropdown text="Get Involved" >
+          <b-dropdown-item href="#"><nuxt-link to="/getinvolved/volunteer">Volunteer</nuxt-link></b-dropdown-item>
+          <b-dropdown-item href="#"><nuxt-link to="/getinvolved/donate">Donate</nuxt-link></b-dropdown-item>
+          <b-dropdown-item href="#"><nuxt-link to="/getinvolved/fundraise">Fundraise</nuxt-link></b-dropdown-item>
+          
         </b-nav-item-dropdown>
       </b-navbar-nav>
 
@@ -38,6 +38,19 @@ export default {
 <style>
 .nav-wrapper {
   background-color: transparent !important;
+  position: fixed;
+  width: 100%;
+}
+.navbar-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navbar-nav {
+  align-items: center;
+}
+.bg-info {
+  background-color: rgba(0, 0, 0, 0.619) !important;
 }
 a {
   margin-right: 1rem;
@@ -45,5 +58,8 @@ a {
 }
 .logo {
   width: 60px;
+}
+.dropdown-menu {
+  background-color: transparent;
 }
 </style>
