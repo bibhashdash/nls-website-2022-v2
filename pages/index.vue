@@ -1,8 +1,11 @@
 <template>
   <div>
     <Navbar />
-    <h1>Welcome to the home section</h1>
-    <NewsBrief />
+    <section class="home-hero">
+      <h1>Strengthening communities in Goole and East Yorkshire</h1>
+      <b-button class="btn-primary"><nuxt-link to="/about">About</nuxt-link></b-button>
+    </section>
+    <!-- <NewsBrief /> -->
   </div>
 </template>
 
@@ -15,3 +18,23 @@ export default {
   components: { Navbar, NewsBrief },
 };
 </script>
+
+<style>
+.home-hero {
+  background: url(../assets/images/home-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5% 10%;
+}
+.btn-primary {
+  width: 150px;
+  border-radius: 20px;
+background-color: rgb(216, 5, 139);
+}
+.home-hero h1 {
+  font-size: 5.5rem;
+  width: 70%;
+
+}
+</style>

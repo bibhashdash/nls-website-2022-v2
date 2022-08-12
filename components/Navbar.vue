@@ -1,16 +1,6 @@
 <template>
-  <!-- <div>
-    <b-navbar toggleable="lg" type="light" variant="light">
-      <b-navbar-nav>
-        <nuxt-link to="/">Home</nuxt-link>
-
-        
-
-        <nuxt-link to="/blog">Blog</nuxt-link>
-      </b-navbar-nav>
-    </b-navbar>
-  </div> -->
-  <div>
+ 
+  <div class="nav-wrapper">
   <b-navbar toggleable="lg" type="dark" variant="info">
     <b-navbar-brand href="https://nls-prototype.netlify.app/">
       <img class="logo" src="../assets/images/NLS_round_logo_gold.png" alt="">
@@ -46,6 +36,9 @@ export default {
 </script>
 
 <style>
+.nav-wrapper {
+  background-color: transparent !important;
+}
 a {
   margin-right: 1rem;
   margin-left: 1rem;
