@@ -47,17 +47,36 @@ export default {
   background-color: #ff5e98;
 }
 .home-hero h1 {
-  font-size: 3rem;
-  /* width: 70%; */
+  font-size: 3.5rem;
+
   color: #fff;
   font-family: "Roboto", sans-serif;
 
   font-weight: 800;
+  margin-bottom: 2rem;
 }
 .home-hero-social-buttons {
   margin-top: 1rem;
   margin-left: 2rem;
   display: flex;
   gap: 1rem;
+}
+@media all and (max-width: 480px) {
+  .home-hero h1 {
+    font-size: 2.5rem;
+  }
+}
+@media all and (min-width: 576px) {
+  .home-hero {
+    padding: 10% 5%;
+  }
+  .home-hero h1 {
+    font-size: 4rem;
+  }
+}
+@media all and (min-width: 769px) {
+  .home-hero h1 {
+    font-size: 4rem;
+  }
 }
 </style>

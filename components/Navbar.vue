@@ -4,7 +4,9 @@
       <img class="logo" src="../assets/images/NLS_round_logo_gold.png" alt="" />
     </b-navbar-brand>
 
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-navbar-toggle target="nav-collapse"
+      ><span class="menu-bar">Menu</span></b-navbar-toggle
+    >
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
@@ -54,6 +56,9 @@ export default {
 </script>
 
 <style>
+.menu-bar {
+  color: #fff;
+}
 .logo {
   width: 70px;
 }
@@ -62,9 +67,17 @@ export default {
   width: 100%;
   top: 0; */
   z-index: 100;
-  background-color: #3a78dc !important;
+  background-color: #172d4e !important;
 }
 .dropdown-menu {
   background-color: #3a78dc !important;
+}
+@media all and (min-width: 993px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .navbar-nav {
+    gap: 1.5rem;
+  }
 }
 </style>
