@@ -1,6 +1,10 @@
 <template>
   <div>
-    <ul>
+    <h1>Hello world</h1>
+    <p>
+      {{ articles }}
+    </p>
+    <!-- <ul>
       <li v-for="article of articles" :key="article.slug">
         <NuxtLink
           :to="{
@@ -12,7 +16,7 @@
           ><p>{{ article.title }}</p>
         </NuxtLink>
       </li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 
@@ -22,9 +26,8 @@ export default {
     return { articles: [] };
   },
 
-  async asyncData({ $content }) {
-    this.articles = await $content("articles", { deep: true }).fetch();
-    console.log(articles);
+  async fetch({ $content }) {
+    this.articles = await $content("articles").fetch();
   },
 };
 </script>
