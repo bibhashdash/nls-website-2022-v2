@@ -21,7 +21,7 @@ export default {
 
 <style>
 .home-hero {
-  background: url(../assets/images/home-hero.jpg);
+  background: linear-gradient(to right, rgba(50, 70, 80, 0.49), rgba(50, 70, 80, 0.49)), url(../assets/images/home-hero.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,6 +35,7 @@ background-color: rgb(216, 5, 139);
 .home-hero h1 {
   font-size: 5.5rem;
   width: 70%;
+  color: #fff;
 
 }
 </style>
