@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <Navbar /> -->
+    <Navbar />
     <h1>Welcome to the home section</h1>
     <NewsBrief />
   </div>
