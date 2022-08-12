@@ -5,7 +5,7 @@
         <nuxt-link to="/">Home</nuxt-link>
 
         <!-- Navbar dropdowns -->
-        <nuxt-link to="/news">News</nuxt-link>
+
         <nuxt-link to="/blog">Blog</nuxt-link>
       </b-navbar-nav>
     </b-navbar>

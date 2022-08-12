@@ -18,12 +18,13 @@
 
 <script>
 export default {
-  name: "News3",
+  data() {
+    return { articles: [] };
+  },
 
   async asyncData({ $content }) {
-    const articles = await $content("articles").fetch();
-
-    return { articles };
+    this.articles = await $content("articles", { deep: true }).fetch();
+    console.log(articles);
   },
 };
 </script>
