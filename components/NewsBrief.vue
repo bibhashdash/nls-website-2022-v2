@@ -1,10 +1,8 @@
 <template>
   <div>
-    <h1>Hello world</h1>
-    <p>
-      {{ articles }}
-    </p>
-    <!-- <ul>
+    
+    
+    <ul>
       <li v-for="article of articles" :key="article.slug">
         <NuxtLink
           :to="{
@@ -13,10 +11,14 @@
               slug: article.slug,
             },
           }"
-          ><p>{{ article.title }}</p>
+          ><img
+        class="blog-image"
+        :src="require(`~/assets/images/${article.img}`)"
+        alt=""
+      /><p>{{ article.title }}</p>
         </NuxtLink>
       </li>
-    </ul> -->
+    </ul>
   </div>
 </template>
 
@@ -26,8 +28,8 @@ export default {
     return { articles: [] };
   },
 
-  async fetch({ $content }) {
-    this.articles = await $content("articles").fetch();
+  async fetch() {
+    this.articles = await this.$content("articles").limit(3).fetch();
   },
 };
 </script>
@@ -36,5 +38,8 @@ export default {
 ul,
 li {
   list-style: none;
+}
+.blog-image {
+  width: 200px;
 }
 </style>

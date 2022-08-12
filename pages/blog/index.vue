@@ -1,7 +1,8 @@
 <template>
   <div>
     <Navbar />
-    <ul>
+    <h1>News Life Support</h1>
+    <ul class="news-grid">
       <li v-for="article of articles" :key="article.slug">
         <NuxtLink
           :to="{
@@ -10,7 +11,12 @@
               slug: article.slug,
             },
           }"
-          ><p>{{ article.title }}</p>
+          >
+          <img
+        class="blog-image"
+        :src="require(`~/assets/images/${article.img}`)"
+        alt=""
+      /><p>{{ article.title }}</p>
         </NuxtLink>
       </li>
     </ul>
@@ -34,5 +40,12 @@ export default {
 ul,
 li {
   list-style: none;
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.blog-image {
+  width: 200px;
 }
 </style>
