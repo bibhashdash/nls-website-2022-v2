@@ -67,12 +67,21 @@ export default {
   width: 100%;
   top: 0; */
   z-index: 100;
+  padding: 0 5%;
   background-color: #172d4e !important;
 }
+.navbar-nav {
+  gap: 1rem;
+  padding: 1rem;
+}
 .dropdown-menu {
-  background-color: #3a78dc !important;
+  background-color: #172d4e !important;
+  padding: 5% 10%;
 }
 @media all and (min-width: 993px) {
+  .navbar {
+    padding: 0 10%;
+  }
   .navbar-collapse {
     justify-content: flex-end;
   }
