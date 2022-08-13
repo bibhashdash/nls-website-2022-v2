@@ -53,7 +53,7 @@ export default {
       rgba(50, 70, 80, 0.49),
       rgba(50, 70, 80, 0.49)
     ),
-    url("../assets/images/home-hero2.jpg");
+    url("../assets/images/home-hero3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
