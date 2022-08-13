@@ -3,16 +3,18 @@
     <Navbar />
     <section class="home-hero">
       <h1>Strengthening communities in Goole and East Yorkshire</h1>
-      <b-button class="btn-primary"
-        ><nuxt-link to="/about">CTA</nuxt-link></b-button
-      >
-      <div class="home-hero-social-buttons">
-        <img src="../assets/images/facebook (2).svg" alt="" />
-        <img src="../assets/images/instagram.svg" alt="" />
-        <img src="../assets/images/twitter (2).svg" alt="" />
+      <div class="home-hero-actions">
+        <nuxt-link to="/about"
+          ><b-button class="btn-primary">CTA</b-button></nuxt-link
+        >
+        <div class="home-hero-social-buttons">
+          <img src="../assets/images/facebook (2).svg" alt="" />
+          <img src="../assets/images/instagram.svg" alt="" />
+          <img src="../assets/images/twitter (2).svg" alt="" />
+        </div>
       </div>
     </section>
-    <section class="intro">
+    <section class="section intro">
       <h2>Who we are</h2>
       <p>
         New Life Support is a project that aims to help young people. We want to
@@ -26,9 +28,48 @@
         key skills that help them achieve the best out of their lives.
       </p>
     </section>
-    <section class="_cards">
-      <div>
-        <div class="_card"></div>
+    <section class="section section-cards">
+      <h2>What we do</h2>
+      <div class="cards-container">
+        <b-card
+          img-src="../assets/images/people-icon.svg"
+          img-alt="people icon"
+          img-top
+          tag="article"
+          style="max-width: 20rem"
+          class="mb-2"
+        >
+          <p>Drop-in sessions</p>
+          <nuxt-link to="/activities/youthwork"
+            ><b-button class="btn-primary">Learn more</b-button></nuxt-link
+          >
+        </b-card>
+        <b-card
+          img-src="../assets/images/food2-icon.svg"
+          img-alt="people icon"
+          img-top
+          tag="article"
+          style="max-width: 20rem"
+          class="mb-2"
+        >
+          <p>Lunchbox</p>
+          <nuxt-link to="/activities/lunchboxgold"
+            ><b-button class="btn-primary">Learn more</b-button></nuxt-link
+          >
+        </b-card>
+        <b-card
+          img-src="../assets/images/hands-icon.svg"
+          img-alt="people icon"
+          img-top
+          tag="article"
+          style="max-width: 20rem"
+          class="mb-2"
+        >
+          <p>Youth Work</p>
+          <nuxt-link to="/activities/youthwork"
+            ><b-button class="btn-primary">Learn more</b-button></nuxt-link
+          >
+        </b-card>
       </div>
     </section>
     <!-- <NewsBrief /> -->
@@ -65,6 +106,10 @@ export default {
   width: 150px;
   border-radius: 20px;
   background-color: #ff5e98;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #172d4e;
 }
 .home-hero h1 {
   font-size: 3.5rem;
@@ -76,19 +121,55 @@ export default {
   margin-bottom: 2rem;
   text-shadow: 0px 0px 9px #000000;
 }
+.home-hero-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  gap: 1rem;
+}
 .home-hero-social-buttons {
-  margin-top: 1rem;
-  margin-left: 2rem;
   display: flex;
   gap: 1rem;
 }
-.intro {
+.section {
   padding: 5%;
 }
-.intro h2 {
+.section h2 {
   color: #ff5e98;
   font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 2rem;
 }
+.cards-container {
+  display: grid;
+  grid-template-columns: auto;
+  place-items: center;
+  gap: 1rem;
+}
+.card {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 5px 2px #b4b4b4;
+}
+.card-img-top {
+  width: 80%;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.card-body {
+  font-size: 1.2rem;
+}
+
 @media all and (max-width: 480px) {
   .home-hero h1 {
     font-size: 2.5rem;
@@ -109,11 +190,18 @@ export default {
   }
   .home-hero h1 {
     font-size: 4rem;
-    width: 70%;
+    width: 80%;
   }
-  .intro {
+  .section {
     padding: 10%;
     font-size: 1.2rem;
+  }
+  .section-cards {
+    padding: 5%;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media all and (min-width: 769px) and (max-width: 992px) {
@@ -124,9 +212,16 @@ export default {
   .home-hero {
     padding: 5% 5% 10% 5%;
   }
-  .intro {
+  .section {
     padding: 10%;
     font-size: 1.5rem;
+  }
+  .section-cards {
+    font-size: 1.2rem;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media all and (min-width: 993px) and (max-width: 1200px) {
@@ -137,35 +232,59 @@ export default {
   .home-hero {
     padding: 5% 10% 10% 10%;
   }
-  .intro {
+  .section {
     padding: 10% 15%;
     font-size: 1.5rem;
+  }
+  .btn-primary {
+    width: 200px;
+    padding: 0.5rem;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media all and (min-width: 1201px) and (max-width: 1400px) {
   .home-hero h1 {
-    font-size: 6rem;
+    font-size: 5.5rem;
     width: 50%;
   }
   .home-hero {
     padding: 5% 10% 10% 10%;
   }
-  .intro {
-    padding: 10% 20%;
+  .section {
+    padding: 8% 20%;
     font-size: 1.5rem;
+  }
+  .btn-primary {
+    width: 200px;
+    padding: 0.5rem;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media all and (min-width: 1401px) {
   .home-hero h1 {
-    font-size: 6rem;
-    width: 50%;
+    font-size: 5.5rem;
+    width: 60%;
   }
   .home-hero {
-    padding: 2% 15% 2% 15%;
+    padding: 2% 15% 4% 15%;
   }
-  .intro {
+  .section {
     padding: 5% 20%;
     font-size: 1.5rem;
+  }
+  .btn-primary {
+    width: 200px;
+    padding: 0.5rem;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 </style>
