@@ -105,11 +105,23 @@ export default {};
 .footer-secondary-content span {
   color: rgb(28, 182, 182);
 }
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .footer-main-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 4% 15%;
+    justify-items: center;
+  }
+  .footer-charity-info {
+    grid-column: 1 / span 2;
+  }
+}
 @media all and (min-width: 769px) and (max-width: 992px) {
   .footer-main-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 4% 15%;
+    justify-items: center;
   }
   .footer-charity-info {
     grid-column: 1 / span 2;
@@ -120,6 +132,7 @@ export default {};
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 4% 10%;
+    justify-items: center;
   }
 }
 @media all and (min-width: 1201px) {
@@ -127,6 +140,7 @@ export default {};
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 4% 20%;
+    justify-items: center;
   }
 }
 </style>

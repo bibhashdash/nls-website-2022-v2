@@ -1,34 +1,47 @@
 <template>
   <div>
     <Navbar />
-    <h1>News Life Support</h1>
-    <ul class="news-grid">
-      <li v-for="article of articles" :key="article.slug">
-        <NuxtLink
-          :to="{
-            name: 'blog-slug',
-            params: {
-              slug: article.slug,
-            },
-          }"
-        >
+    <SecondaryHero mainTitle="News" />
+    <div class="section section-news-grid">
+      <ul class="news-grid">
+        <li v-for="article of articles" :key="article.slug">
           <img
             class="blog-image"
             :src="require(`~/assets/images/${article.img}`)"
             alt=""
           />
-          <p>{{ article.title }}</p>
-        </NuxtLink>
-      </li>
-    </ul>
+          <p class="article-title">{{ article.title }}</p>
+          <p class="article-summary">{{ article.summary }}</p>
+
+          <NuxtLink
+            :to="{
+              name: 'blog-slug',
+              params: {
+                slug: article.slug,
+              },
+            }"
+            ><p class="read-more">
+              Read More
+              <span
+                ><img
+                  src="../../assets/images/chevron_right_black_24dp.svg"
+                  alt=""
+              /></span></p
+          ></NuxtLink>
+        </li>
+      </ul>
+    </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navbar from "~/components/Navbar.vue";
+import SecondaryHero from "~/components/SecondaryHero.vue";
+import Footer from "~/components/Footer.vue";
 
 export default {
-  components: { Navbar },
+  components: { Navbar, SecondaryHero, Footer },
   async asyncData({ $content }) {
     const articles = await $content("articles").fetch();
 
@@ -37,28 +50,39 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 ul,
 li {
   list-style: none;
+}
+.section-news-grid {
+  padding: 5%;
 }
 .news-grid {
   display: grid;
   grid-template-columns: auto;
 }
 .blog-image {
-  width: 200px;
+  width: 100%;
+}
+.article-title {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.article-summary {
+  color: black;
 }
 @media all and (min-width: 577px) {
   .news-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
 }
 @media all and (min-width: 993px) {
   .news-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
   }
 }
 </style>

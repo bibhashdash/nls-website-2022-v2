@@ -2,7 +2,7 @@
 title: Easter - 'Be Kind to the World'
 
 img: easter-lego-story.jpg
-summary: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.
+summary: Revive Church and New Life Support are proud to bring you an exciting holiday event for the days leading up to the Easter weekend.
 ---
 
 # Easter - 'Be Kind to the World'
