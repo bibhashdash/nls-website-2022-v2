@@ -28,8 +28,17 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+ul,
+li {
+  list-style: none;
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 .blog-image {
   width: 200px;
 }
+</style>
 </style>

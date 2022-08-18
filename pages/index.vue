@@ -72,7 +72,53 @@
         </b-card>
       </div>
     </section>
-    <!-- <NewsBrief /> -->
+    <section class="section section-banner">
+      <h3 class="banner-quote">
+        "We reach into the heart of this community. We are here building
+        bridges."
+      </h3>
+      <p class="banner-attribution">
+        - Jonathan Whitehouse <br />
+        NLS Youth Worker
+      </p>
+    </section>
+    <section class="section section-news-brief">
+      <h2>News</h2>
+
+      <NewsBrief />
+    </section>
+    <section class="section section-carousel">
+      <h2>Get Involved</h2>
+      <b-carousel
+        id="carousel-1"
+        v-model="slide"
+        :interval="4000"
+        controls
+        indicators
+        background="#202020"
+        img-width="1024"
+        img-height="480"
+        style="text-shadow: 1px 1px 2px #333"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+      >
+        <b-carousel-slide>
+          <div class="carousel-content">
+            <h3>Volunteering</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              debitis ratione dolor, vel animi esse nulla, tempore adipisci,
+              mollitia aut quam eum et consequatur numquam maxime similique
+              aspernatur minima sunt?
+            </p>
+            <nuxt-link to="/about"
+              ><b-button class="btn-primary">CTA</b-button></nuxt-link
+            >
+            <img class="carousel-image" src="../assets/images/3.jpg" alt="" />
+          </div>
+        </b-carousel-slide>
+      </b-carousel>
+    </section>
   </div>
 </template>
 
@@ -169,7 +215,53 @@ export default {
 .card-body {
   font-size: 1.2rem;
 }
+.section-banner {
+  padding: 20% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+      to right,
+      rgba(50, 70, 80, 0.65),
+      rgba(50, 70, 80, 0.65)
+    ),
+    url("../assets/images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  gap: 1.5rem;
+}
+.banner-quote {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0px 0px 9px #000000;
+}
+.banner-attribution {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ff5e98;
+  text-shadow: 0px 0px 9px #000000;
+}
+.section-carousel {
+  background-color: #202020;
+  height: 800px;
+}
+.carousel {
+  height: 100%;
+}
 
+.carousel-item {
+  height: 700px;
+}
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.carousel-image {
+  width: 100%;
+}
 @media all and (max-width: 480px) {
   .home-hero h1 {
     font-size: 2.5rem;
@@ -203,6 +295,15 @@ export default {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .banner-quote {
+    font-size: 3rem;
+  }
+  .banner-attribution {
+    font-size: 1.5rem;
+  }
+  .section-news-brief {
+    padding: 5%;
+  }
 }
 @media all and (min-width: 769px) and (max-width: 992px) {
   .home-hero h1 {
@@ -222,6 +323,12 @@ export default {
   .cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .banner-quote {
+    font-size: 3rem;
+  }
+  .banner-attribution {
+    font-size: 1.5rem;
   }
 }
 @media all and (min-width: 993px) and (max-width: 1200px) {
@@ -244,6 +351,18 @@ export default {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .section-banner {
+    padding: 10%;
+  }
+  .banner-quote {
+    font-size: 4rem;
+  }
+  .banner-attribution {
+    font-size: 2rem;
+  }
+  .section-news-brief {
+    padding: 5%;
+  }
 }
 @media all and (min-width: 1201px) and (max-width: 1400px) {
   .home-hero h1 {
@@ -265,6 +384,16 @@ export default {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .section-banner {
+    padding: 10% 15%;
+  }
+  .banner-quote {
+    font-size: 4rem;
+  }
+  .banner-attribution {
+    font-size: 2rem;
+    text-align: center;
+  }
 }
 @media all and (min-width: 1401px) {
   .home-hero h1 {
@@ -285,6 +414,16 @@ export default {
   .cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .section-banner {
+    padding: 5% 15%;
+  }
+  .banner-quote {
+    font-size: 5rem;
+  }
+  .banner-attribution {
+    font-size: 2rem;
+    text-align: center;
   }
 }
 </style>

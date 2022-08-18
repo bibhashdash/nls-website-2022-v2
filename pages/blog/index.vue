@@ -11,12 +11,13 @@
               slug: article.slug,
             },
           }"
-          >
+        >
           <img
-        class="blog-image"
-        :src="require(`~/assets/images/${article.img}`)"
-        alt=""
-      /><p>{{ article.title }}</p>
+            class="blog-image"
+            :src="require(`~/assets/images/${article.img}`)"
+            alt=""
+          />
+          <p>{{ article.title }}</p>
         </NuxtLink>
       </li>
     </ul>
@@ -36,7 +37,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 ul,
 li {
   list-style: none;
