@@ -44,9 +44,21 @@ li {
 }
 .news-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: auto;
 }
 .blog-image {
   width: 200px;
+}
+@media all and (min-width: 577px) {
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media all and (min-width: 993px) {
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 </style>

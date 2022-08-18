@@ -38,7 +38,7 @@ export default {
   },
 
   async fetch() {
-    this.articles = await this.$content("articles").limit(3).fetch();
+    this.articles = await this.$content("articles").limit(4).fetch();
   },
 };
 </script>
