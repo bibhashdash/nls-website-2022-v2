@@ -3,6 +3,7 @@
     <Navbar />
     <SecondaryHero mainTitle="News" />
     <div class="section section-news-grid">
+      <h2>All the latest</h2>
       <ul class="news-grid">
         <li v-for="article of articles" :key="article.slug">
           <img
@@ -10,7 +11,9 @@
             :src="require(`~/assets/images/${article.img}`)"
             alt=""
           />
+
           <p class="article-title">{{ article.title }}</p>
+          <p class="article-date">{{ article.date }}</p>
           <p class="article-summary">{{ article.summary }}</p>
 
           <NuxtLink
@@ -72,17 +75,23 @@ li {
 }
 .article-summary {
   color: black;
+  font-size: 1rem;
+}
+.article-date {
+  color: rgb(102, 102, 102);
+  font-size: 0.8rem;
 }
 @media all and (min-width: 577px) {
   .news-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 1.5rem;
   }
 }
 @media all and (min-width: 993px) {
   .news-grid {
     gap: 2rem;
+    padding: 5% 10%;
   }
 }
 </style>

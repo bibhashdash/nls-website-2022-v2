@@ -2,9 +2,12 @@
 title: NLS launch 'Lunchbox Gold'
 img: lunchbox-gold-story.jpg
 summary: We are excited to launch a new member to our Revive Goole/ New Life Support occasions.
+date: 26th October, 2021
 ---
 
 # NLS launch 'Lunchbox Gold'
+
+### 26th October, 2021
 
 We are excited to launch a new member to our Revive Goole/ New Life Support occasions.
 

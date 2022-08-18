@@ -11,9 +11,9 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
         <nuxt-link to="/">Home</nuxt-link>
-        <nuxt-link to="/blog">Blog</nuxt-link>
+
         <nuxt-link to="/about">About</nuxt-link>
-        <nuxt-link to="/contact">Contact</nuxt-link>
+        <nuxt-link to="/blog">News</nuxt-link>
 
         <b-nav-item-dropdown text="Get Involved">
           <b-dropdown-item href="#"
@@ -44,6 +44,7 @@
             ></b-dropdown-item
           >
         </b-nav-item-dropdown>
+        <nuxt-link to="/contact">Contact</nuxt-link>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

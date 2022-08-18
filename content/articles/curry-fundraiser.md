@@ -3,9 +3,12 @@ title: Curry giveaway at Lunchbox Goole
 
 img: curry-fundraiser-story.jpeg
 summary: New Life Support will be giving away free curry meals to raise funds towards the battle against the Covid-19 pandemic in India.
+date: 11th May, 2021
 ---
 
 # Curry giveaway at Lunchbox Goole
+
+### 11th May, 2021
 
 New Life Support will be giving away free curry meals to raise funds towards the battle against the Covid-19 pandemic in India.
 

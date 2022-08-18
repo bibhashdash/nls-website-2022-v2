@@ -2,10 +2,13 @@
 title: Lunchbox Goole win award
 
 img: award-story.jpg
-summary: Lunchbox Goole won the "Contribution to the Community" award at this year's Goole & Howdenshire Business Excellence Awards..
+summary: Lunchbox Goole won the "Contribution to the Community" award at this year's Goole & Howdenshire Business Excellence Awards.
+date: 28th February, 2022
 ---
 
 # Lunchbox Goole win award
+
+### 28th February, 2022
 
 Lunchbox Goole have been awarded the "Contribution to the Community" award at this year's Goole & Howdenshire Business Excellence Awards.
 

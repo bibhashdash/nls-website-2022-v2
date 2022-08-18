@@ -1,14 +1,19 @@
 <template>
   <div>
     <Navbar />
-    <article>
-      <img
-        class="blog-image"
-        :src="require(`~/assets/images/${article.img}`)"
-        alt=""
-      />
-      <nuxt-content :document="article" />
-    </article>
+    <div class="article-wrapper">
+      <article>
+        <img
+          class="blog-image"
+          :src="require(`~/assets/images/${article.img}`)"
+          alt=""
+        />
+        <nuxt-content :document="article" />
+        <NuxtLink to="/blog"
+          ><b-button class="btn-primary">Back to all news</b-button></NuxtLink
+        >
+      </article>
+    </div>
   </div>
 </template>
 
@@ -20,26 +25,30 @@ export default {
 
     return { article };
   },
-  //   data() {
-  //     return {
-  //       imgSrc: "require(`../../static/images/${article.img}.jpg`)",
-  //     };
-  //   },
 };
 </script>
 
 <style scoped>
-ul,
-li {
-  list-style: none;
+.article-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 10%;
 }
-.news-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-.blog-image {
-  width: 200px;
+article {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
-</style>
+.blog-image {
+  width: 100%;
+  max-width: 800px;
+}
+.article-wrapper a {
+  align-self: flex-start;
+}
 </style>
