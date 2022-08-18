@@ -75,10 +75,19 @@ export default {
   gap: 1rem;
   padding: 1rem;
 }
-.dropdown-menu {
-  background-color: #172d4e !important;
-  padding: 5% 10%;
+.navbar-nav a:hover {
+  color: #ff5e98;
 }
+.dropdown-menu {
+  background-color: #202020 !important;
+  padding: 10%;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
 @media all and (min-width: 993px) {
   .navbar {
     padding: 0 10%;
