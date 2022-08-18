@@ -203,6 +203,7 @@ export default {
   border-radius: 20px;
   background-color: #ff5e98;
   border: none;
+  padding: 5px 0;
 }
 .btn-primary:hover {
   background-color: #172d4e;
