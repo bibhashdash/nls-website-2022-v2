@@ -68,7 +68,8 @@ export default {
   top: 0; */
   z-index: 100;
   padding: 0 5%;
-  background-color: #172d4e !important;
+  /* background-color: #172d4e !important; */
+  background-color: #202020 !important;
 }
 .navbar-nav {
   gap: 1rem;

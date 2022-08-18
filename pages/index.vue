@@ -104,31 +104,81 @@
       >
         <b-carousel-slide>
           <div class="carousel-content">
-            <h3>Volunteering</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              debitis ratione dolor, vel animi esse nulla, tempore adipisci,
-              mollitia aut quam eum et consequatur numquam maxime similique
-              aspernatur minima sunt?
-            </p>
-            <nuxt-link to="/about"
-              ><b-button class="btn-primary">CTA</b-button></nuxt-link
-            >
+            <div class="carousel-text-and-button">
+              <h3>Volunteering</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                debitis ratione dolor, vel animi esse nulla, tempore adipisci,
+                mollitia aut quam eum et consequatur numquam maxime similique
+                aspernatur minima sunt?
+              </p>
+              <nuxt-link to="/getinvolved/volunteer"
+                ><b-button class="btn-primary">Learn More</b-button></nuxt-link
+              >
+            </div>
+
             <img class="carousel-image" src="../assets/images/3.jpg" alt="" />
+          </div>
+        </b-carousel-slide>
+
+        <b-carousel-slide>
+          <div class="carousel-content">
+            <div class="carousel-text-and-button">
+              <h3>Donate</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                debitis ratione dolor, vel animi esse nulla, tempore adipisci,
+                mollitia aut quam eum et consequatur numquam maxime similique
+                aspernatur minima sunt?
+              </p>
+              <nuxt-link to="/getinvolved/donate"
+                ><b-button class="btn-primary">Learn More</b-button></nuxt-link
+              >
+            </div>
+
+            <img class="carousel-image" src="../assets/images/2.jpg" alt="" />
+          </div>
+        </b-carousel-slide>
+        <b-carousel-slide>
+          <div class="carousel-content">
+            <div class="carousel-text-and-button">
+              <h3>Fundraise</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                debitis ratione dolor, vel animi esse nulla, tempore adipisci,
+                mollitia aut quam eum et consequatur numquam maxime similique
+                aspernatur minima sunt?
+              </p>
+              <nuxt-link to="/getinvolved/fundraise"
+                ><b-button class="btn-primary">Learn More</b-button></nuxt-link
+              >
+            </div>
+
+            <img class="carousel-image" src="../assets/images/1.jpg" alt="" />
           </div>
         </b-carousel-slide>
       </b-carousel>
     </section>
+    <section class="section section-banner contact-banner">
+      <h3 class="banner-quote">
+        For any questions or to learn more about what we do, drop us a message!
+      </h3>
+      <nuxt-link to="/contact"
+        ><b-button class="btn-primary">Contact Us</b-button></nuxt-link
+      >
+    </section>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navbar from "../components/Navbar.vue";
 import NewsBrief from "~/components/NewsBrief.vue";
+import Footer from "~/components/Footer.vue";
 
 export default {
   name: "IndexPage",
-  components: { Navbar, NewsBrief },
+  components: { Navbar, NewsBrief, Footer },
 };
 </script>
 
@@ -161,7 +211,6 @@ export default {
   font-size: 3.5rem;
 
   color: #fff;
-  font-family: "Roboto", sans-serif;
 
   font-weight: 800;
   margin-bottom: 2rem;
@@ -188,6 +237,9 @@ export default {
   text-align: center;
   margin-bottom: 2rem;
 }
+.intro p {
+  color: #000000;
+}
 .cards-container {
   display: grid;
   grid-template-columns: auto;
@@ -202,6 +254,9 @@ export default {
   flex-direction: column;
   align-items: center;
   box-shadow: 0px 0px 5px 2px #b4b4b4;
+}
+.card p {
+  color: #000000;
 }
 .card-img-top {
   width: 80%;
@@ -245,10 +300,7 @@ export default {
 }
 .section-carousel {
   background-color: #202020;
-  height: 800px;
-}
-.carousel {
-  height: 100%;
+  /* height: 800px; */
 }
 
 .carousel-item {
@@ -259,8 +311,22 @@ export default {
   flex-direction: column;
   gap: 1rem;
 }
+.carousel-content p {
+  font-size: 1rem;
+}
+.carousel-caption {
+  top: 0 !important;
+}
 .carousel-image {
   width: 100%;
+  border-radius: 20px;
+}
+.contact-banner {
+  background: #fff;
+}
+.contact-banner h3 {
+  color: #000000;
+  text-shadow: none;
 }
 @media all and (max-width: 480px) {
   .home-hero h1 {
@@ -330,6 +396,12 @@ export default {
   .banner-attribution {
     font-size: 1.5rem;
   }
+  .carousel-item {
+    height: 900px;
+  }
+  .contact-banner h3 {
+    font-size: 2rem;
+  }
 }
 @media all and (min-width: 993px) and (max-width: 1200px) {
   .home-hero h1 {
@@ -363,6 +435,13 @@ export default {
   .section-news-brief {
     padding: 5%;
   }
+  .carousel-item {
+    height: 900px;
+  }
+  .contact-banner h3 {
+    font-size: 2rem;
+    width: 85%;
+  }
 }
 @media all and (min-width: 1201px) and (max-width: 1400px) {
   .home-hero h1 {
@@ -394,6 +473,13 @@ export default {
     font-size: 2rem;
     text-align: center;
   }
+  .carousel-item {
+    height: 900px;
+  }
+  .contact-banner h3 {
+    font-size: 2rem;
+    width: 80%;
+  }
 }
 @media all and (min-width: 1401px) {
   .home-hero h1 {
@@ -424,6 +510,13 @@ export default {
   .banner-attribution {
     font-size: 2rem;
     text-align: center;
+  }
+  .carousel-item {
+    height: 900px;
+  }
+  .contact-banner h3 {
+    font-size: 2rem;
+    width: 70%;
   }
 }
 </style>
