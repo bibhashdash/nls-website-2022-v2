@@ -40,5 +40,6 @@ li {
 .blog-image {
   width: 200px;
 }
+
 </style>
 </style>
