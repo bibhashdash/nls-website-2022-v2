@@ -54,8 +54,6 @@ export default {};
 
 <style>
 .footer {
-  background-color: #202020;
-  padding: 10% 5%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -67,7 +65,7 @@ export default {};
 .footer h3 {
   border-bottom: 3px solid #ff5e98;
   width: fit-content;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.2rem;
 }
 .footer p {
   font-size: 0.8rem;
@@ -75,10 +73,16 @@ export default {};
 }
 
 .footer-main-content {
+  padding: 10% 5%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
+  background-color: #202020;
 }
+/* .footer-charity-brand {
+  display: flex;
+} */
+
 .contact-info-item {
   display: flex;
   flex-direction: row;
@@ -105,6 +109,7 @@ export default {};
   .footer-main-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 4% 15%;
   }
   .footer-charity-info {
     grid-column: 1 / span 2;
@@ -114,6 +119,14 @@ export default {};
   .footer-main-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding: 4% 10%;
+  }
+}
+@media all and (min-width: 1201px) {
+  .footer-main-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 4% 20%;
   }
 }
 </style>
