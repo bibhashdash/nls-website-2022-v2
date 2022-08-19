@@ -61,6 +61,13 @@ li {
 .section-news-grid {
   padding: 5%;
 }
+.section-news-grid h2 {
+  color: #ff5e98;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 2rem;
+}
 .news-grid {
   display: grid;
   grid-template-columns: auto;
@@ -80,6 +87,9 @@ li {
 .article-date {
   color: rgb(102, 102, 102);
   font-size: 0.8rem;
+}
+.read-more {
+  color: #ff5e98;
 }
 @media all and (min-width: 577px) {
   .news-grid {

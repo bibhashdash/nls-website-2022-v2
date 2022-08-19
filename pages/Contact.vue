@@ -15,19 +15,40 @@
         <input type="hidden" name="form-name" value="contactus" />
         <div class="form-item">
           <label for="name">Name:</label>
-          <input name="name" type="text" />
+          <input
+            name="name"
+            type="text"
+            required
+            placeholder="This is a required field"
+          />
         </div>
         <div class="form-item">
           <label for="email">Email:</label>
-          <input name="email" type="email" />
+          <input
+            name="email"
+            type="email"
+            placeholder="If you require a response"
+          />
         </div>
         <div class="form-item">
           <label for="subject">Subject:</label>
-          <input name="subject" type="text" />
+          <input
+            name="subject"
+            type="text"
+            required
+            placeholder="This is a required field"
+          />
         </div>
         <div class="form-item">
           <label for="message">Message:</label>
-          <textarea name="message" id="" cols="30" rows="10"></textarea>
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            required
+            placeholder="This is a required field"
+          ></textarea>
         </div>
 
         <button type="submit" class="btn-primary form-submit">Submit</button>
@@ -75,6 +96,13 @@ export default {
   grid-template-columns: auto;
   gap: 2rem;
 }
+.section-form-info h2 {
+  color: #ff5e98;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 2rem;
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -102,6 +130,12 @@ input {
 }
 .form-submit {
   align-self: center;
+
+  width: 150px;
+  border-radius: 20px;
+  background-color: #ff5e98;
+  border: none;
+  padding: 5px 0;
 }
 .google-maps-pin {
   width: 100%;
