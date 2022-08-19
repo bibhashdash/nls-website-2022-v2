@@ -3,6 +3,16 @@
     <Navbar />
     <div class="article-wrapper">
       <article>
+        <NuxtLink to="/blog"
+          ><p style="color: #ff5e98; font-weight: bold">
+            <span
+              ><img
+                src="../../assets/images/chevron_left_black_24dp.svg"
+                alt=""
+            /></span>
+            Back to news
+          </p></NuxtLink
+        >
         <img
           class="blog-image"
           :src="require(`~/assets/images/${article.img}`)"
@@ -10,7 +20,9 @@
         />
         <nuxt-content :document="article" />
         <NuxtLink to="/blog"
-          ><b-button class="btn-primary">Back to all news</b-button></NuxtLink
+          ><b-button class="btn-primary back-to-all-news"
+            >Back to all news</b-button
+          ></NuxtLink
         >
       </article>
     </div>
@@ -50,5 +62,12 @@ article {
 }
 .article-wrapper a {
   align-self: flex-start;
+}
+.back-to-all-news {
+  width: 150px;
+  border-radius: 20px;
+  background-color: #ff5e98;
+  border: none;
+  padding: 5px 0;
 }
 </style>
