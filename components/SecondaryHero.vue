@@ -18,7 +18,7 @@ export default {
       rgba(50, 70, 80, 0.55),
       rgba(50, 70, 80, 0.55)
     ),
-    url("../assets/images/secondary-hero2.jpg");
+    url("../assets/images/secondary-hero2.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
