@@ -191,6 +191,7 @@ export default {
       rgba(50, 70, 80, 0.49)
     ),
     url("../assets/images/home-hero3.jpg");
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -216,6 +217,7 @@ export default {
   font-weight: 800;
   margin-bottom: 2rem;
   text-shadow: 0px 0px 9px #000000;
+  /* align-self: flex-end; */
 }
 .home-hero-actions {
   display: flex;
@@ -223,6 +225,7 @@ export default {
   align-items: center;
   width: fit-content;
   gap: 1rem;
+  /* align-self: flex-end; */
 }
 .home-hero-social-buttons {
   display: flex;
@@ -337,7 +340,7 @@ export default {
 @media all and (max-width: 576px) {
   .home-hero h1 {
     font-size: 2.5rem;
-    width: 70%;
+    /* width: 70%; */
   }
   .home-hero {
     padding: 10% 5% 20% 5%;
@@ -349,7 +352,7 @@ export default {
   }
   .home-hero h1 {
     font-size: 4rem;
-    width: 80%;
+    /* width: 80%; */
   }
   .section {
     padding: 10%;
@@ -375,7 +378,7 @@ export default {
 @media all and (min-width: 769px) and (max-width: 992px) {
   .home-hero h1 {
     font-size: 4rem;
-    width: 70%;
+    width: 90%;
   }
   .home-hero {
     padding: 5% 5% 10% 5%;
@@ -407,7 +410,7 @@ export default {
 @media all and (min-width: 993px) and (max-width: 1200px) {
   .home-hero h1 {
     font-size: 5rem;
-    width: 50%;
+    /* width: 50%; */
   }
   .home-hero {
     padding: 5% 10% 10% 10%;
@@ -447,7 +450,7 @@ export default {
 @media all and (min-width: 1201px) and (max-width: 1400px) {
   .home-hero h1 {
     font-size: 5.5rem;
-    width: 50%;
+    /* width: 50%; */
   }
   .home-hero {
     padding: 5% 10% 10% 10%;
