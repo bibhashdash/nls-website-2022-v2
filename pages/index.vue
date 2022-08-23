@@ -144,17 +144,23 @@
             <div class="carousel-text-and-button">
               <h3>Fundraise</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                debitis ratione dolor, vel animi esse nulla, tempore adipisci,
-                mollitia aut quam eum et consequatur numquam maxime similique
-                aspernatur minima sunt?
+                Whether you love baking, walking, football or bingo, we have
+                plenty of ideas of how you can fundraise and help transform
+                young people's lives. And you don't even have to sit in a tub of
+                baked beans to do it (unless you really want to)! From an
+                Auction to a Zumba party, check out our fundraising page for
+                inspiration and details on how to get involved.
               </p>
               <nuxt-link to="/getinvolved/fundraise"
                 ><b-button class="btn-primary">Learn More</b-button></nuxt-link
               >
             </div>
 
-            <img class="carousel-image" src="../assets/images/1.jpg" alt="" />
+            <img
+              class="carousel-image"
+              src="../assets/images/home-fundraise.jpg"
+              alt=""
+            />
           </div>
         </b-carousel-slide>
       </b-carousel>
