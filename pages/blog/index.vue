@@ -3,7 +3,7 @@
     <Navbar />
     <SecondaryHero mainTitle="News" />
     <div class="section section-news-grid">
-      <h2>All the latest</h2>
+      <h2>All the latest news</h2>
       <ul class="news-grid">
         <li v-for="article of articles" :key="article.slug">
           <img
@@ -57,6 +57,8 @@ export default {
 ul,
 li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .section-news-grid {
   padding: 5%;
@@ -74,6 +76,7 @@ li {
 }
 .blog-image {
   width: 100%;
+  border-radius: 20px;
 }
 .article-title {
   color: black;

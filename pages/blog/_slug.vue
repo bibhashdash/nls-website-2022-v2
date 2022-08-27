@@ -59,6 +59,7 @@ article {
 .blog-image {
   width: 100%;
   max-width: 800px;
+  border-radius: 20px;
 }
 .article-wrapper a {
   align-self: flex-start;
