@@ -82,9 +82,13 @@ export default {
 }
 .dropdown-menu {
   background-color: #202020 !important;
-  padding: 10%;
+  padding: 5% 10%;
   border: 2px solid gray;
   border-radius: 10px;
+  gap: 1rem;
+}
+.dropdown-menu li {
+  margin: 10px 0 !important;
 }
 .dropdown-item:hover {
   background-color: transparent;
@@ -99,6 +103,10 @@ export default {
   }
   .navbar-nav {
     gap: 1.5rem;
+  }
+  .dropdown-menu {
+    padding: 10%;
+    text-align: center;
   }
 }
 </style>

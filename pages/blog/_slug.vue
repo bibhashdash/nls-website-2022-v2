@@ -15,7 +15,7 @@
         >
         <img
           class="blog-image"
-          :src="require(`~/assets/images/${article.img}`)"
+          :src="require(`~/assets/images/blogImages/${article.img}`)"
           alt=""
         />
         <nuxt-content :document="article" />

@@ -6,7 +6,11 @@
       <h2>Profiles</h2>
       <ul class="profiles-grid">
         <li v-for="profile of teamProfiles" :key="profile.slug">
-          <img class="team-profile-image" :src="require(`~/assets/images/${profile.img}`)" alt="">
+          <img
+            class="team-profile-image"
+            :src="require(`~/assets/images/${profile.img}`)"
+            alt=""
+          />
           <NuxtLink
             :to="{
               name: 'team-slug',
@@ -14,12 +18,18 @@
                 slug: profile.slug,
               },
             }"
-            >
-            <p class="profile-title">{{profile.title}} <span><img src="../../assets/images/chevron_right_white_24dp.svg" alt=""></span></p>
-            </NuxtLink>
-          
-          <p class="profile-role">{{profile.role}}</p>
-          
+          >
+            <p class="profile-title">
+              {{ profile.title }}
+              <span
+                ><img
+                  src="../../assets/images/chevron_right_white_24dp.svg"
+                  alt=""
+              /></span>
+            </p>
+          </NuxtLink>
+
+          <p class="profile-role">{{ profile.role }}</p>
         </li>
       </ul>
     </section>
@@ -39,13 +49,14 @@ export default {
     return { teamProfiles };
   },
 };
-
 </script>
 
 <style>
 ul,
 li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .section-team-grid {
   padding: 5%;
@@ -63,7 +74,6 @@ li {
 }
 .team-profile-image {
   width: 100%;
-  
 }
 .profile-title {
   background-color: #ff5e98;
@@ -73,7 +83,6 @@ li {
   margin-bottom: 0;
   width: fit-content;
   padding: 2px 10px;
-
 }
 .profile-role {
   background-color: black;

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="news-brief-component">
     <ul class="news-brief-cards-container">
       <li
         class="news-brief-card"
@@ -28,6 +28,9 @@
         ></NuxtLink>
       </li>
     </ul>
+    <nuxt-link to="/blog"
+      ><b-button class="btn-primary">See all news</b-button></nuxt-link
+    >
   </div>
 </template>
 
@@ -44,6 +47,12 @@ export default {
 </script>
 
 <style>
+.news-brief-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
 ul,
 li {
   list-style: none;
