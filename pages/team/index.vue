@@ -8,7 +8,7 @@
         <li v-for="profile of teamProfiles" :key="profile.slug">
           <img
             class="team-profile-image"
-            :src="require(`~/assets/images/${profile.img}`)"
+            :src="require(`~/assets/images/teamImages/${profile.img}`)"
             alt=""
           />
           <NuxtLink

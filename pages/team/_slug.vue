@@ -15,7 +15,7 @@
         >
         <img
           class="profile-image"
-          :src="require(`~/assets/images/${profile.img}`)"
+          :src="require(`~/assets/images/teamImages/${profile.img}`)"
           alt=""
         />
         <nuxt-content :document="profile" />
