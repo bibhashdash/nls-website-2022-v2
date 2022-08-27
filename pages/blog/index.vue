@@ -8,7 +8,7 @@
         <li v-for="article of articles" :key="article.slug">
           <img
             class="blog-image"
-            :src="require(`~/assets/images/${article.img}`)"
+            :src="require(`~/assets/images/blogImages/${article.img}`)"
             alt=""
           />
 
@@ -53,7 +53,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 ul,
 li {
   list-style: none;

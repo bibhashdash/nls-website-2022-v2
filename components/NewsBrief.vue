@@ -8,7 +8,7 @@
       >
         <img
           class="blog-image"
-          :src="require(`~/assets/images/${article.img}`)"
+          :src="require(`~/assets/images/blogImages/${article.img}`)"
           alt=""
         />
         <p class="news-brief-title">{{ article.title }}</p>
