@@ -4,9 +4,9 @@
     <section class="home-hero">
       <h1>Strengthening communities in Goole and East Yorkshire</h1>
       <div class="home-hero-actions">
-        <nuxt-link to="/about"
-          ><b-button class="btn-primary">CTA</b-button></nuxt-link
-        >
+        <nuxt-link to="/about">
+          <Button buttonContent="About Us" />
+        </nuxt-link>
         <div class="home-hero-social-buttons">
           <img src="../assets/images/facebook (2).svg" alt="" />
           <img src="../assets/images/instagram.svg" alt="" />
@@ -40,9 +40,9 @@
           class="mb-2"
         >
           <p>Drop-in sessions</p>
-          <nuxt-link to="/activities/youthwork"
-            ><b-button class="btn-primary">Learn more</b-button></nuxt-link
-          >
+          <nuxt-link to="/activities/youthwork">
+            <Button buttonContent="Learn More" />
+          </nuxt-link>
         </b-card>
         <b-card
           img-src="../assets/images/food2-icon.svg"
@@ -54,8 +54,8 @@
         >
           <p>Lunchbox</p>
           <nuxt-link to="/activities/lunchboxgold"
-            ><b-button class="btn-primary">Learn more</b-button></nuxt-link
-          >
+            ><Button buttonContent="Learn More"
+          /></nuxt-link>
         </b-card>
         <b-card
           img-src="../assets/images/hands-icon.svg"
@@ -67,8 +67,8 @@
         >
           <p>Youth Work</p>
           <nuxt-link to="/activities/youthwork"
-            ><b-button class="btn-primary">Learn more</b-button></nuxt-link
-          >
+            ><Button buttonContent="Learn More"
+          /></nuxt-link>
         </b-card>
       </div>
     </section>
@@ -107,14 +107,16 @@
             <div class="carousel-text-and-button">
               <h3>Volunteering</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                debitis ratione dolor, vel animi esse nulla, tempore adipisci,
-                mollitia aut quam eum et consequatur numquam maxime similique
-                aspernatur minima sunt?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+                vero tempore possimus error unde. Vel, voluptatibus. Aspernatur
+                beatae quae totam, maxime sunt dolor vitae voluptates inventore
+                aliquid, quia sint excepturi ullam neque numquam quos possimus
+                ipsum ut natus. Suscipit totam alias possimus neque voluptate
+                asperiores facere dicta minus quam blanditiis quod consectetur
               </p>
               <nuxt-link to="/getinvolved/volunteer"
-                ><b-button class="btn-primary">Learn More</b-button></nuxt-link
-              >
+                ><Button buttonContent="Learn More"
+              /></nuxt-link>
             </div>
 
             <img class="carousel-image" src="../assets/images/3.jpg" alt="" />
@@ -126,14 +128,16 @@
             <div class="carousel-text-and-button">
               <h3>Donate</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                debitis ratione dolor, vel animi esse nulla, tempore adipisci,
-                mollitia aut quam eum et consequatur numquam maxime similique
-                aspernatur minima sunt?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+                vero tempore possimus error unde. Vel, voluptatibus. Aspernatur
+                beatae quae totam, maxime sunt dolor vitae voluptates inventore
+                aliquid, quia sint excepturi ullam neque numquam quos possimus
+                ipsum ut natus. Suscipit totam alias possimus neque voluptate
+                asperiores facere dicta minus quam blanditiis quod consectetur
               </p>
               <nuxt-link to="/getinvolved/donate"
-                ><b-button class="btn-primary">Learn More</b-button></nuxt-link
-              >
+                ><Button buttonContent="Learn More"
+              /></nuxt-link>
             </div>
 
             <img class="carousel-image" src="../assets/images/2.jpg" alt="" />
@@ -152,8 +156,8 @@
                 inspiration and details on how to get involved.
               </p>
               <nuxt-link to="/getinvolved/fundraise"
-                ><b-button class="btn-primary">Learn More</b-button></nuxt-link
-              >
+                ><Button buttonContent="Learn More"
+              /></nuxt-link>
             </div>
 
             <img
@@ -169,9 +173,7 @@
       <h3 class="banner-quote">
         For any questions or to learn more about what we do, drop us a message!
       </h3>
-      <nuxt-link to="/contact"
-        ><b-button class="btn-primary">Contact Us</b-button></nuxt-link
-      >
+      <nuxt-link to="/contact"><Button buttonContent="Contact Us" /></nuxt-link>
     </section>
     <Footer />
   </div>
@@ -181,10 +183,11 @@
 import Navbar from "../components/Navbar.vue";
 import NewsBrief from "~/components/NewsBrief.vue";
 import Footer from "~/components/Footer.vue";
+import Button from "~/components/Interaction/Button.vue";
 
 export default {
   name: "IndexPage",
-  components: { Navbar, NewsBrief, Footer },
+  components: { Navbar, NewsBrief, Footer, Button, Button },
 };
 </script>
 
@@ -205,16 +208,7 @@ export default {
   display: flex;
   flex-direction: column;
 }
-.btn-primary {
-  width: 150px;
-  border-radius: 20px;
-  background-color: #ff5e98;
-  border: none;
-  padding: 5px 0;
-}
-.btn-primary:hover {
-  background-color: #172d4e;
-}
+
 .home-hero h1 {
   font-size: 3.5rem;
 
@@ -327,6 +321,11 @@ export default {
 .carousel-caption {
   top: 0 !important;
 }
+.carousel-text-and-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .carousel-image {
   width: 100%;
   border-radius: 20px;
@@ -425,10 +424,7 @@ export default {
     padding: 10% 15%;
     font-size: 1.5rem;
   }
-  .btn-primary {
-    width: 200px;
-    padding: 0.5rem;
-  }
+
   .cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -465,10 +461,7 @@ export default {
     padding: 8% 20%;
     font-size: 1.5rem;
   }
-  .btn-primary {
-    width: 200px;
-    padding: 0.5rem;
-  }
+
   .cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -503,10 +496,7 @@ export default {
     padding: 5% 20%;
     font-size: 1.5rem;
   }
-  .btn-primary {
-    width: 200px;
-    padding: 0.5rem;
-  }
+
   .cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

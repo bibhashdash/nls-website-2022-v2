@@ -28,21 +28,22 @@
         ></NuxtLink>
       </li>
     </ul>
-    <nuxt-link to="/blog"
-      ><b-button class="btn-primary">See all news</b-button></nuxt-link
-    >
+    <nuxt-link to="/blog">
+      <Button buttonContent="See all news" />
+    </nuxt-link>
   </div>
 </template>
 
 <script>
+import Button from "./Interaction/Button.vue";
 export default {
   data() {
     return { articles: [] };
   },
-
   async fetch() {
     this.articles = await this.$content("articles").limit(4).fetch();
   },
+  components: { Button },
 };
 </script>
 

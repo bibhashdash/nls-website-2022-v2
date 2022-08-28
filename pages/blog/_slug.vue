@@ -19,24 +19,26 @@
           alt=""
         />
         <nuxt-content :document="article" />
-        <NuxtLink to="/blog"
-          ><b-button class="btn-primary back-to-all-news"
+        <NuxtLink to="/blog">
+          <!-- <b-button class="btn-primary back-to-all-news"
             >Back to all news</b-button
-          ></NuxtLink
-        >
+          > -->
+          <Button buttonContent="Back to all news" />
+        </NuxtLink>
       </article>
     </div>
   </div>
 </template>
 
 <script>
+import Button from "~/components/Interaction/Button.vue";
 export default {
   name: "blog-slug",
   async asyncData({ $content, params }) {
     const article = await $content("articles", params.slug).fetch();
-
     return { article };
   },
+  components: { Button },
 };
 </script>
 
@@ -63,12 +65,5 @@ article {
 }
 .article-wrapper a {
   align-self: flex-start;
-}
-.back-to-all-news {
-  width: 150px;
-  border-radius: 20px;
-  background-color: #ff5e98;
-  border: none;
-  padding: 5px 0;
 }
 </style>

@@ -50,8 +50,14 @@
             placeholder="This is a required field"
           ></textarea>
         </div>
-
-        <button type="submit" class="btn-primary form-submit">Submit</button>
+        <!-- <Button class="btn-primary form-submit" buttonContent="Submit" /> -->
+        <b-button type="submit" class="form-submit"
+          >Submit<span
+            class="material-symbols material-symbols-outlined btn-primary-chevron"
+          >
+            chevron_right
+          </span></b-button
+        >
       </form>
       <div class="contact-info">
         <h2>Contact Info</h2>
@@ -85,8 +91,9 @@
 import Navbar from "~/components/Navbar.vue";
 import Footer from "~/components/Footer.vue";
 import SecondaryHero from "~/components/SecondaryHero.vue";
+import Button from "~/components/Interaction/Button.vue";
 export default {
-  components: { Navbar, Footer, SecondaryHero },
+  components: { Navbar, Footer, SecondaryHero, Button },
 };
 </script>
 
@@ -128,15 +135,26 @@ textarea {
 input {
   padding: 10px;
 }
+::placeholder {
+  font-size: 1rem;
+}
 .form-submit {
   align-self: center;
-
-  width: 150px;
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: #ff5e98;
   border: none;
-  padding: 5px 0;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
+.form-submit:hover {
+  background-color: #172d4e;
+  text-decoration: none;
+}
+
 .google-maps-pin {
   width: 100%;
   height: 400px;

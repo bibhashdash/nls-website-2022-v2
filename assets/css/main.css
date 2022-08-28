@@ -20,10 +20,14 @@ a {
   font-family: "Noto Sans", sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 p {
   font-family: "Noto Sans", sans-serif;
   font-weight: 500;
+}
+a:hover {
+  text-decoration: none;
 }
 
 .nuxt-content p,

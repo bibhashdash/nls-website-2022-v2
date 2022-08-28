@@ -78,7 +78,7 @@ export default {
   padding: 1rem;
 }
 .navbar-nav a:hover {
-  color: #ff5e98;
+  color: #ff5e98 !important;
 }
 .dropdown-menu {
   background-color: #202020 !important;

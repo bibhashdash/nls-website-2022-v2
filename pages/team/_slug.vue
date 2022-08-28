@@ -19,24 +19,23 @@
           alt=""
         />
         <nuxt-content :document="profile" />
-        <NuxtLink to="/team"
-          ><b-button class="btn-primary back-to-all-profiles"
-            >Back to all profiles</b-button
-          ></NuxtLink
-        >
+        <NuxtLink to="/team">
+          <Button buttonContent="Back to all profiles" />
+        </NuxtLink>
       </article>
     </div>
   </div>
 </template>
 
 <script>
+import Button from "~/components/Interaction/Button.vue";
 export default {
   name: "team-slug",
   async asyncData({ $content, params }) {
     const profile = await $content("teamProfiles", params.slug).fetch();
-
     return { profile };
   },
+  components: { Button },
 };
 </script>
 
