@@ -5,7 +5,7 @@
       <h1>Strengthening communities in Goole and East Yorkshire</h1>
       <div class="home-hero-actions">
         <nuxt-link to="/about">
-          <Button buttonContent="About Us" />
+          <Button forwardFacing="true" buttonContent="About Us" />
         </nuxt-link>
         <!-- <div class="home-hero-social-buttons">
           <img src="../assets/images/facebook (2).svg" alt="" />
@@ -41,7 +41,7 @@
         >
           <p>Drop-in sessions</p>
           <nuxt-link to="/activities/youthwork">
-            <Button buttonContent="Learn More" />
+            <Button forwardFacing="true" buttonContent="Learn More" />
           </nuxt-link>
         </b-card>
         <b-card
@@ -54,7 +54,7 @@
         >
           <p>Lunchbox</p>
           <nuxt-link to="/activities/lunchboxgold"
-            ><Button buttonContent="Learn More"
+            ><Button forwardFacing="true" buttonContent="Learn More"
           /></nuxt-link>
         </b-card>
         <b-card
@@ -67,7 +67,7 @@
         >
           <p>Youth Work</p>
           <nuxt-link to="/activities/youthwork"
-            ><Button buttonContent="Learn More"
+            ><Button forwardFacing="true" buttonContent="Learn More"
           /></nuxt-link>
         </b-card>
       </div>
@@ -116,7 +116,7 @@
                 building and a great sense of being part of the team.
               </p>
               <nuxt-link to="/getinvolved/volunteer"
-                ><Button buttonContent="Learn More"
+                ><Button forwardFacing="true" buttonContent="Learn More"
               /></nuxt-link>
             </div>
 
@@ -139,7 +139,7 @@
                 the giving as a partnership.
               </p>
               <nuxt-link to="/getinvolved/donate"
-                ><Button buttonContent="Learn More"
+                ><Button forwardFacing="true" buttonContent="Learn More"
               /></nuxt-link>
             </div>
 
@@ -160,7 +160,7 @@
                 involved.
               </p>
               <nuxt-link to="/getinvolved/fundraise"
-                ><Button buttonContent="Learn More"
+                ><Button forwardFacing="true" buttonContent="Learn More"
               /></nuxt-link>
             </div>
 
@@ -177,7 +177,9 @@
       <h3 class="banner-quote">
         For any questions or to learn more about what we do, drop us a message!
       </h3>
-      <nuxt-link to="/contact"><Button buttonContent="Contact Us" /></nuxt-link>
+      <nuxt-link to="/contact"
+        ><Button forwardFacing="true" buttonContent="Contact Us"
+      /></nuxt-link>
     </section>
     <Footer />
   </div>

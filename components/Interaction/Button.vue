@@ -1,21 +1,33 @@
 <template>
-  <b-button class="btn-primary">
-    <span class="button-content">
-      {{ buttonContent }}
-    </span>
+  <div>
+    <b-button v-if="forwardFacing" class="btn-primary">
+      <span class="button-content">
+        {{ buttonContent }}
+      </span>
 
-    <span
-      class="material-symbols material-symbols-outlined btn-primary-chevron"
+      <span
+        class="material-symbols material-symbols-outlined btn-primary-chevron"
+      >
+        chevron_right
+      </span></b-button
     >
-      chevron_right
-    </span></b-button
-  >
+    <b-button v-else class="btn-primary">
+      <span
+        class="material-symbols material-symbols-outlined btn-primary-chevron chevron-left"
+      >
+        chevron_left
+      </span>
+      <span class="button-content">
+        {{ buttonContent }}
+      </span>
+    </b-button>
+  </div>
 </template>
 
 <script>
 export default {
   name: "Button",
-  props: ["buttonContent"],
+  props: ["buttonContent", "forwardFacing"],
 };
 </script>
 
@@ -38,5 +50,9 @@ export default {
 }
 .btn-primary-chevron {
   margin-left: 15px;
+}
+.chevron-left {
+  margin-right: 15px;
+  margin-left: 0;
 }
 </style>

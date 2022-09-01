@@ -29,7 +29,7 @@
       </li>
     </ul>
     <nuxt-link to="/blog">
-      <Button buttonContent="See all news" />
+      <Button forwardFacing="true" buttonContent="See all news" />
     </nuxt-link>
   </div>
 </template>
