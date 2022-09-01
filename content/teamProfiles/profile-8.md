@@ -2,6 +2,7 @@
 title: Rob Pritchard
 role: Chair of Trustees
 img: robP.jpg
+index: 5
 ---
 
 # Rob Pritchard

@@ -2,6 +2,7 @@
 title: Eloise
 role: Volunteer
 img: eloise.png
+index: 8
 ---
 
 # Eloise

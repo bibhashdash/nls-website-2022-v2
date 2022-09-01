@@ -7,11 +7,11 @@
         <nuxt-link to="/about">
           <Button buttonContent="About Us" />
         </nuxt-link>
-        <div class="home-hero-social-buttons">
+        <!-- <div class="home-hero-social-buttons">
           <img src="../assets/images/facebook (2).svg" alt="" />
           <img src="../assets/images/instagram.svg" alt="" />
           <img src="../assets/images/twitter (2).svg" alt="" />
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="section intro">
@@ -203,7 +203,7 @@ export default {
       rgba(0, 0, 0, 0.29),
       rgba(0, 0, 0, 0.29)
     ),
-    url("../assets/images/home-hero3.jpg");
+    url("../assets/images/home-hero5.jpg");
 
   background-size: cover;
   background-position: center;

@@ -44,7 +44,7 @@ import SecondaryHero from "~/components/SecondaryHero.vue";
 export default {
   components: { Navbar, Footer, SecondaryHero },
   async asyncData({ $content }) {
-    const teamProfiles = await $content("teamProfiles").fetch();
+    const teamProfiles = await $content("teamProfiles").sortBy("index").fetch();
 
     return { teamProfiles };
   },

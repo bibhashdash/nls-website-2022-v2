@@ -1,11 +1,12 @@
 ---
 title: Miriam Green
-role: Role9
+role: Youth Worker
 img: miriam.jpeg
+index: 6
 ---
 
 # Miriam Green
 
-### Role9
+### Youth Worker
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Miriam is a positive role model for our youth work. Leading in Customer Service for a local company by the day , she is a calm, caring, capable, relational worker in the youth work sessions. Her ideal way to relax is a drive to see a sunset or the beach or to spend time with friends or family.

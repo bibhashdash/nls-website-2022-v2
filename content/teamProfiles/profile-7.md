@@ -1,11 +1,12 @@
 ---
 title: Jonathan Whitehouse
-role: Role7
+role: Youth Worker
 img: jonathanWhitehouse.jpeg
+index: 4
 ---
 
 # Jonathan Whitehouse
 
-### Role7
+### Youth Worker
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Jonathan is the encourager, inspirer and great story teller. As well as his youth and community work during the week, you may see him running at the parkrun or pounding the paths of Goole and beyond. Going by the hashtag #TheRunningRev Jonathan loves sharing his faith in God, preaching in churches around the region and has just written a book called ‘A Pioneers Perspective’.

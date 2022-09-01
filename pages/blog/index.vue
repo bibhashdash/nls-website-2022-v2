@@ -93,6 +93,7 @@ li {
 }
 .read-more {
   color: #ff5e98;
+  font-size: 1rem;
 }
 @media all and (min-width: 577px) {
   .news-grid {

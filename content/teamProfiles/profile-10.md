@@ -2,10 +2,11 @@
 title: Tilly
 role: Volunteer
 img: tilly.jpg
+index: 10
 ---
 
 # Tilly
 
 ### Volunteer
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I like to help around where possible whether it be on the water or on land. I'm currently studying 4 Alevels at college: geography, biology, maths and English Literature but in my spare time I love to read, paint and of course, paddle board!

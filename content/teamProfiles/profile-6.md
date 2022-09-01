@@ -1,11 +1,12 @@
 ---
 title: Janet O Toole
-role: Role6
+role: Facilitator
 img: janetOToole.jpg
+index: 3
 ---
 
 # Janet O Toole
 
-### Role6
+### Facilitator
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I am a facilitator which means listening to the ideas, interest, and passions of others and helping them bring those to life. Given the chance I am great fun to be around and always positive. My hobbies are reading (theory), writing, craft, and spending time with my family.

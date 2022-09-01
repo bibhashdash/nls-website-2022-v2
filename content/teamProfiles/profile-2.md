@@ -2,6 +2,7 @@
 title: Liz Green
 role: Role2
 img: liz-green.jpg
+index: 2
 ---
 
 # Liz Green
