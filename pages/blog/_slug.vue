@@ -27,18 +27,20 @@
         </NuxtLink>
       </article>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Button from "~/components/Interaction/Button.vue";
+import Footer from "~/components/Footer.vue";
 export default {
   name: "blog-slug",
   async asyncData({ $content, params }) {
     const article = await $content("articles", params.slug).fetch();
     return { article };
   },
-  components: { Button },
+  components: { Button, Footer },
 };
 </script>
 

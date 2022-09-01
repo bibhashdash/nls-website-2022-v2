@@ -17,15 +17,15 @@
     <section class="section intro">
       <h2>Who we are</h2>
       <p>
-        New Life Support is a project that aims to help young people. We want to
-        give young people the best life possible. We do this through various
-        activities, information, and support to help them make the choices that
-        best fulfil their potential. <br />
+        New Life Support aims to support young people and communities in Hull
+        and East Yorkshire. We create opportunities, put on activities, provide
+        information and support, to help people to fulfil their potential,
+        improve their wellbeing and make good choices for the benefit of their
+        lives and their communities. <br />
         <br />
-        Started in 2013, New Life Support has grown into a valuable resource for
-        the young people of Goole to meet with professionals, experts, and
-        mentors. It enables them to make the best use of their time and to gain
-        key skills that help them achieve the best out of their lives.
+        Started in 2013, New Life Support is the youth and community work
+        charity that works with and alongside Revive Church UK, Hull, East
+        Yorkshire and networks beyond the region.
       </p>
     </section>
     <section class="section section-cards">
@@ -92,7 +92,7 @@
       <b-carousel
         id="carousel-1"
         v-model="slide"
-        :interval="4000"
+        :interval="10000"
         controls
         indicators
         background="#202020"
@@ -107,12 +107,13 @@
             <div class="carousel-text-and-button">
               <h3>Volunteering</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
-                vero tempore possimus error unde. Vel, voluptatibus. Aspernatur
-                beatae quae totam, maxime sunt dolor vitae voluptates inventore
-                aliquid, quia sint excepturi ullam neque numquam quos possimus
-                ipsum ut natus. Suscipit totam alias possimus neque voluptate
-                asperiores facere dicta minus quam blanditiis quod consectetur
+                Volunteering is at the heart of the community work of New Life
+                Support. We recognise and value all our volunteers and provide
+                bespoke opportunities and support to help a volunteer get the
+                best out of their time investment. We realise that time is
+                precious and offer anyone interested a conversation over a
+                cuppa, a chance to attend a taster/trial session, training, team
+                building and a great sense of being part of the team.
               </p>
               <nuxt-link to="/getinvolved/volunteer"
                 ><Button buttonContent="Learn More"
@@ -128,12 +129,14 @@
             <div class="carousel-text-and-button">
               <h3>Donate</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
-                vero tempore possimus error unde. Vel, voluptatibus. Aspernatur
-                beatae quae totam, maxime sunt dolor vitae voluptates inventore
-                aliquid, quia sint excepturi ullam neque numquam quos possimus
-                ipsum ut natus. Suscipit totam alias possimus neque voluptate
-                asperiores facere dicta minus quam blanditiis quod consectetur
+                The charity has been privileged to carry out grant funded youth
+                and community work, with support from East Riding of Yorkshire
+                Council, Hull City Council, Children in Need, Goole Fields
+                Windfarm Community Fund and others. With that in mind, we are
+                honoured when we receive financial gifts or gifts in kind from
+                individuals, local businesses, or organisations. This giving not
+                only helps us to continue the good work, but we also recognise
+                the giving as a partnership.
               </p>
               <nuxt-link to="/getinvolved/donate"
                 ><Button buttonContent="Learn More"
@@ -149,11 +152,12 @@
               <h3>Fundraise</h3>
               <p>
                 Whether you love baking, walking, football or bingo, we have
-                plenty of ideas of how you can fundraise and help transform
-                young people's lives. And you don't even have to sit in a tub of
-                baked beans to do it (unless you really want to)! From an
-                Auction to a Zumba party, check out our fundraising page for
-                inspiration and details on how to get involved.
+                plenty of ideas of how you can fundraise and help transform the
+                lives of young people and local communities. And you don't even
+                have to sit in a tub of baked beans to do it (unless you really
+                want to)! From an Auction to a Zumba party, check out our
+                fundraising page for inspiration and details on how to get
+                involved.
               </p>
               <nuxt-link to="/getinvolved/fundraise"
                 ><Button buttonContent="Learn More"
@@ -196,8 +200,8 @@ export default {
 .home-hero {
   background: linear-gradient(
       to right,
-      rgba(50, 70, 80, 0.49),
-      rgba(50, 70, 80, 0.49)
+      rgba(0, 0, 0, 0.29),
+      rgba(0, 0, 0, 0.29)
     ),
     url("../assets/images/home-hero3.jpg");
 
@@ -252,18 +256,19 @@ export default {
 }
 .card {
   width: 100%;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0px 0px 5px 2px #b4b4b4;
+  box-shadow: 0px 0px 5px 2px #dddddd7b;
+  border: none;
 }
 .card p {
   color: #000000;
 }
 .card-img-top {
-  width: 80%;
+  width: 40%;
 }
 .card-body {
   display: flex;

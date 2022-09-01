@@ -1,6 +1,6 @@
 ---
 title: Liz Green
-role: Volunteer Coordinator
+role: Role2
 img: liz-green.jpg
 ---
 

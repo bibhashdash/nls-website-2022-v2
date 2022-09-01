@@ -1,6 +1,6 @@
 ---
 title: Steve Green
-role: Coordinator
+role: Role1
 img: steve-green.jpg
 ---
 
