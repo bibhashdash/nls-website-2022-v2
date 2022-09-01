@@ -41,7 +41,10 @@ export default {
     return { articles: [] };
   },
   async fetch() {
-    this.articles = await this.$content("articles").limit(4).fetch();
+    this.articles = await this.$content("articles")
+      .limit(4)
+      .sortBy("index", "desc")
+      .fetch();
   },
   components: { Button },
 };

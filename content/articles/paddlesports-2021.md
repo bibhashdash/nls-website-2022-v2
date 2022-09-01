@@ -4,6 +4,7 @@ title: Splashes of fun at Goole canal
 img: paddlesports-story.jpeg
 summary: A fun-filled day of paddlesports at Goole Canal on 17th April, with local residents making the most of the sunny weather.
 date: 23rd April, 2021
+index: 1
 ---
 
 # Splashes of fun at Goole canal

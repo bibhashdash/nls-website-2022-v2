@@ -46,7 +46,7 @@ import Footer from "~/components/Footer.vue";
 export default {
   components: { Navbar, SecondaryHero, Footer },
   async asyncData({ $content }) {
-    const articles = await $content("articles").fetch();
+    const articles = await $content("articles").sortBy("index", "desc").fetch();
 
     return { articles };
   },

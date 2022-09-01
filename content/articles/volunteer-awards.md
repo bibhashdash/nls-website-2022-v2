@@ -4,6 +4,7 @@ title: Proud to Bee a volunteer
 img: volunteer-awards-story.jpeg
 summary: New Life Support's very own Liz Green was among 48 volunteering individuals and groups nominated for the Proud to Bee a Volunteer awards.
 date: 9th October, 2021
+index: 3
 ---
 
 # Proud to Bee a volunteer

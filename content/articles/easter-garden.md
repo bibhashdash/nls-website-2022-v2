@@ -3,6 +3,7 @@ title: Easter Garden at Lunchbox Gold
 img: easter-story.jpg
 summary: Do you make an Easter garden or is it something new to you? Join us at Lunchbox Gold, Revive Church Goole to create an Easter Garden this year.
 date: 1st April, 2022
+index: 7
 ---
 
 # Easter Garden at Lunchbox Gold

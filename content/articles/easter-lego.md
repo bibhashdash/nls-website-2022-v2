@@ -4,6 +4,7 @@ title: Easter - 'Be Kind to the World'
 img: easter-lego-story.jpg
 summary: Revive Church and New Life Support are proud to bring you an exciting holiday event for the days leading up to the Easter weekend.
 date: 1st April, 2022
+index: 6
 ---
 
 # Easter - 'Be Kind to the World'
