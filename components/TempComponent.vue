@@ -1,5 +1,5 @@
 <template>
-  <section class="temp-section">
+  <section class="section temp-section">
     <h3>
       This part of the website is still under construction. Please check back
       later!
@@ -18,4 +18,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.temp-section-img {
+  width: 100%;
+}
+</style>

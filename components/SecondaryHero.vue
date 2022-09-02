@@ -36,6 +36,12 @@ export default {
 }
 .secondary-hero h1 {
   font-size: 3rem;
+  font-weight: 800;
+}
+@media all and (max-width: 480px) {
+  .secondary-hero h1 {
+    font-size: 2.5rem;
+  }
 }
 @media all and (min-width: 481px) and (max-width: 576px) {
   .secondary-hero {

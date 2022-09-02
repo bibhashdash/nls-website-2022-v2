@@ -43,7 +43,7 @@
     </div>
     <div class="footer-secondary-content">
       <p>Copyright 2022 New Life Support</p>
-      <p>Website design by <span> NINE BLOCK MEDIA</span></p>
+      <p>Website design by <span>NINE BLOCK MEDIA</span></p>
     </div>
   </div>
 </template>
@@ -105,6 +105,7 @@ export default {};
 .footer-secondary-content span {
   color: rgb(28, 182, 182);
 }
+
 @media all and (min-width: 576px) and (max-width: 768px) {
   .footer-main-content {
     display: grid;
