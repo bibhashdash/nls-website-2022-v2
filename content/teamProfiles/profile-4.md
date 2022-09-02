@@ -9,4 +9,4 @@ index: 8
 
 ### Volunteer
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I love all things outdoors, adventure and getting involved in social action. I have volunteered with New Life Support, alongside guiding, in one way or another for the last four years, am a founding member of Goole Paddlesports NLS and have recently qualified as a Paddlesport Instructor, Swimming Instructor and work as a Lifeguard. I enjoy camping with friends, travelling on the train and I am studying in York in Outdoor Adventure Sport.

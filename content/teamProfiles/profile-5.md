@@ -9,4 +9,4 @@ index: 9
 
 ### Volunteer
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Janet is a local volunteer she helps us to organise, plan and gets stuck in whenever she is involved. Trained in graphics she has an eye for the detail of getting the word out to local people, particularly to those who can’t access technology and social media. Janet assisted Monday to Friday, alongside working, with the Lunchbox Goole food service during the pandemic. She relaxes by gardening, knows loads of people and has a passion to take care of the environment. Enjoying the peace of paddleboarding, but also the fun of providing the opportunity for others.

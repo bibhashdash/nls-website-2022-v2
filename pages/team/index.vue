@@ -59,7 +59,7 @@ li {
   margin: 0;
 }
 .section-team-grid {
-  padding: 5%;
+  padding: 5% !important;
 }
 .section-team-grid h2 {
   color: #ff5e98;
@@ -92,7 +92,11 @@ li {
   font-weight: bold;
   padding: 2px 10px;
 }
-
+@media all and (min-width: 320px) {
+  .section-team-grid {
+    padding: 5% !important;
+  }
+}
 @media all and (min-width: 577px) {
   .profiles-grid {
     display: grid;
@@ -104,6 +108,7 @@ li {
   .profiles-grid {
     gap: 2rem;
     padding: 5% 10%;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 </style>

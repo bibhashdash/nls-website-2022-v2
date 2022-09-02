@@ -1,12 +1,12 @@
 ---
 title: Liz Green
-role: Role2
+role: Community Development Worker
 img: liz-green.jpg
 index: 2
 ---
 
 # Liz Green
 
-### Role2
+### Community Development Worker
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I support the financial administration and other back-room aspects of New Life Support, all with a passion to see people go beyond their comfort zone, conquer fears, and rise to new opportunities. I love the fact that NLS trains youth workers, community activists and brings opportunities and experiences to many local people. I am looking forward to seeing some new activities taking place in other areas of East Yorkshire and beyond, as well as Goole and Kingswood, Hull. To relax I can think of nothing better than a good book, or a meal with friends and/or family – if there is a lake or a mountain to gaze at, paddleboard on or climb - even better.
