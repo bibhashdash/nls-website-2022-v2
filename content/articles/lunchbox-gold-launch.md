@@ -22,4 +22,4 @@ We will shape the morning with those who come along - Belinda will chat and join
 
 At 1.15pm we start our Chariot Book Club. We are excited to open up some books of the Bible together!
 
-For more information - please contact us - or turn up on Tuesday!
+For more information - please [contact us](/contact) - or turn up on Tuesday!

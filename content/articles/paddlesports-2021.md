@@ -21,4 +21,4 @@ Steve Green, coordinator at NLS, said: "It's wonderful to see both children and 
 
 "We hope that more of Goole's youth will join in sessions further down the line."
 
-To get involved with future sessions, please drop us a line via the [Contact Us](https://nls-prototype.netlify.app/contact) page.
+To get involved with future sessions, please drop us a line via the [Contact Us](/contact) page.

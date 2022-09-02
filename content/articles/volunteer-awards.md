@@ -26,5 +26,3 @@ It allows youth to experience new activities and build on existing hobbies, ensu
 Alongside Liz in the nominations pool were Ryan Gibbons and Paul Dolan (City of Hull Boxing Club), Conleth Campbell (Elloughton Blackburn Football Club), Val French (Pocklington Tennis Club / Breeze Cycling and Pocklington Rugby in the Community), and Albert Hardy (Goole Boxing Club).
 
 The highly commended award went to Val French and the winners were Ryan Gibbons and Paul Dolan of City of Hull Boxing Club.
-
-For more information and to see the full shortlist of nominees, please click here.

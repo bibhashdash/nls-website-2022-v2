@@ -16,7 +16,7 @@ Our seasonal activity is to create an Easter garden for your patio, front door o
 
 This event takes place on Tue, 5 April 2022 between 10:30 – 13:00. To register, please visit our eventbrite link.
 
-For any further information email liz@revivechurch.co.uk or visit our contact page.
+For any further information email liz@revivechurch.co.uk or visit our [contact](/contact) page.
 
 You will need a tray, a box or even the lid from a cake tin or chocolate box. Feel free to bring plant pot, pebbles, flowers, moss from your own finding - or use ours - we will have some.
 

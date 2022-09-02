@@ -17,10 +17,8 @@ Easter Holiday Hands-On Activities will take place at Revive Church, Goole on 12
 
 There will be a Lego competition at 4pm. The theme is "Be Kind To The World".
 
-To sign up for the event please click here.
-
 We are all about caring for the environment and nature - be prepared to create, garden, and play games - for all ages with a FREE workshop at Revive Church!
 
 Under 11's must be accompanied by parents/carers. Bring your own Lego if possible.
 
-For any queries, contact us.
+For any queries, [contact us](/contact).

@@ -19,6 +19,6 @@ It was great to spotlight the benefits of paddlesport for people, all ages and a
 
 We also chatted about water safety, the dangers of cold water shock and the safe use of the Aire and Calder Navigation for paddlesport.
 
-Our Goole Paddlesports NLS are pop-up tasters, they are staffed mainly by volunteers and qualified instructors lead the session, for more information email <liz@revivechurch.co.uk> or contact us by [clicking here](https://nls-prototype.netlify.app/contact).
+Our Goole Paddlesports NLS are pop-up tasters, they are staffed mainly by volunteers and qualified instructors lead the session, for more information email <liz@revivechurch.co.uk> or contact us by [clicking here](/contact).
 
 With thanks to Mike Ryder Coaching and Zoetic Outdoors for instruction and advice.

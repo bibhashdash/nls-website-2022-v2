@@ -29,4 +29,4 @@ We do have a suggested donation of £5 but please give what you can.
 
 Along with the curry dish, we also have a mystery box to giveaway thanks to the help of our amazing Lunchbox Goole volunteers.
 
-For more information on Khalsa Aid and the work they do, please visit their website by clicking here.
+For more information on Khalsa Aid and the work they do, please visit their website by [clicking here](https://www.khalsaaid.org/).
