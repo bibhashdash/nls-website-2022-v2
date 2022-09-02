@@ -107,7 +107,7 @@ li {
 @media all and (min-width: 993px) {
   .profiles-grid {
     gap: 2rem;
-    padding: 5% 10%;
+    padding: 5%;
     grid-template-columns: repeat(3, 1fr);
   }
 }
