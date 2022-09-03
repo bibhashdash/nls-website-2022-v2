@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="lg" variant="info">
-    <b-navbar-brand href="https://nls-prototype.netlify.app/">
+    <b-navbar-brand href="https://newlifesupport.co.uk/">
       <img class="logo" src="../assets/images/NLS_round_logo_gold.png" alt="" />
     </b-navbar-brand>
 
