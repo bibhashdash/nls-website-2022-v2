@@ -21,7 +21,7 @@
         and East Yorkshire. We create opportunities, put on activities, provide
         information and support, to help people to fulfil their potential,
         improve their wellbeing and make good choices for the benefit of their
-        lives and their communities. <br />
+        lives and communities. <br />
         <br />
         Started in 2013, New Life Support is the youth and community work
         charity that works with and alongside Revive Church UK, Hull, East
