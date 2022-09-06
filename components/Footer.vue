@@ -15,7 +15,11 @@
             New Life Support is a registered charity in England and Wales
             (Charity number: 1156235). For a full list of our financial and
             annual reports please visit the Charities Commission website by
-            clicking here.
+            <a
+              href="https://register-of-charities.charitycommission.gov.uk/charity-details/?subid=0&regid=1156235"
+              target="_blank"
+              >clicking here</a
+            >.
           </p>
         </div>
       </div>
@@ -104,6 +108,9 @@ export default {};
 }
 .footer-secondary-content span {
   color: rgb(28, 182, 182);
+}
+.footer-charity-info-text a {
+  color: #ff5e98 !important;
 }
 
 @media all and (min-width: 576px) and (max-width: 768px) {
