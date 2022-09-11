@@ -45,7 +45,11 @@
           >
         </b-nav-item-dropdown>
         <nuxt-link to="/team">Team</nuxt-link>
-        <nuxt-link to="/contact/"><a href="/contact/">Contact</a></nuxt-link>
+        <nuxt-link to="/contact/"
+          ><a href="https://newlifesupport.co.uk/contact/"
+            >Contact</a
+          ></nuxt-link
+        >
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
