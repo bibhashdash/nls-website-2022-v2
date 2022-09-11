@@ -149,6 +149,7 @@ input {
 ::placeholder {
   font-size: 1rem;
 }
+
 .form-submit {
   align-self: center;
   border-radius: 15px;

@@ -45,7 +45,7 @@
           >
         </b-nav-item-dropdown>
         <nuxt-link to="/team">Team</nuxt-link>
-        <nuxt-link to="/contact">Contact</nuxt-link>
+        <nuxt-link to="/contact/">Contact</nuxt-link>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
