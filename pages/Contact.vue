@@ -21,12 +21,7 @@
         </p>
         <div class="form-item">
           <label for="name">Name:</label>
-          <input
-            name="name"
-            type="text"
-            required
-            placeholder="This is a required field"
-          />
+          <input name="name" type="text" required placeholder="Required" />
         </div>
         <div class="form-item">
           <label for="email">Email:</label>
@@ -42,7 +37,8 @@
             name="subject"
             type="text"
             required
-            placeholder="This is a required field"
+            placeholder="Required. Max 30 characters."
+            maxlength="100"
           />
         </div>
         <div class="form-item">
@@ -53,7 +49,8 @@
             cols="30"
             rows="10"
             required
-            placeholder="This is a required field"
+            placeholder="This is a required field. Max 1000 characters"
+            maxlength="1000"
           ></textarea>
         </div>
         <!-- <Button class="btn-primary form-submit" buttonContent="Submit" /> -->
