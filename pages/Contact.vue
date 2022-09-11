@@ -10,7 +10,6 @@
         method="post"
         netlify
         netlify-honeypot="bot-field"
-        data-netlify-recaptcha="true"
       >
         <h2>Write to us</h2>
         <input type="hidden" name="form-name" value="contactus" />
@@ -58,7 +57,7 @@
           ></textarea>
         </div>
         <!-- <Button class="btn-primary form-submit" buttonContent="Submit" /> -->
-        <div data-netlify-recaptcha="true"></div>
+
         <b-button type="submit" class="form-submit"
           >Submit<span
             class="material-symbols material-symbols-outlined btn-primary-chevron"
