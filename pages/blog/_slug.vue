@@ -56,13 +56,13 @@ article {
   max-width: 1000px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   gap: 1rem;
 }
 
 .blog-image {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   border-radius: 20px;
 }
 .article-wrapper a {
